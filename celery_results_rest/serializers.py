@@ -29,4 +29,4 @@ class GroupResultSerializer(serializers.ModelSerializer):
 class GroupResultListSerializer(serializers.ModelSerializer):
     class Meta:
         model = GroupResult
-        fields = ['group_id', 'date_done']
+        fields = ['id', 'group_id', 'date_done']
