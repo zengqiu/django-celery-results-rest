@@ -16,7 +16,7 @@ class TaskResultSerializer(serializers.ModelSerializer):
 class TaskResultListSerializer(serializers.ModelSerializer):
     class Meta:
         model = TaskResult
-        fields = ['task_id', 'periodic_task_name', 'task_name', 'date_done', 'status', 'worker']
+        fields = ['id', 'task_id', 'periodic_task_name', 'task_name', 'date_done', 'status', 'worker']
 
 
 class GroupResultSerializer(serializers.ModelSerializer):
