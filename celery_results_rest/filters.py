@@ -13,7 +13,7 @@ class TaskResultFilter(filters.FilterSet):
 
     class Meta:
         model = TaskResult
-        fields = {'task_id': ['icontains']}
+        fields = ['task_id']
 
 
 class GroupResultFilter(filters.FilterSet):
