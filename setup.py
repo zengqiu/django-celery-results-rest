@@ -6,7 +6,7 @@ with open('README.md', 'r') as fh:
 
 setup(
     name='django-celery-results-rest',
-    version='0.0.3',
+    version='0.0.4',
     license='MIT',
     author='zengqiu',
     author_email='zengqiu@qq.com',
